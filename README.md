@@ -29,8 +29,6 @@ pip install matplotlib
 python baccarat.py
 ```
 
-> ⚠️ 檔案底部有示範程式,**直接執行或 import 時都會跑**。若要當模組使用,請把示範區包進 `if __name__ == "__main__":`。
-
 ## 🎯 內建策略
 
 | 名稱 | 說明 |
@@ -121,7 +119,7 @@ focus_on(my_strategy, 500, show_it=True, return_it=False)
 
 - 牌值:A~9 為面值,10、J、Q、K 為 0,總和取個位數
 - 任一方前兩張牌為 8 或 9(天牌)時雙方不補牌
-- 閒家 0~5 點補牌、6~7 點停牌;莊家依閒家第三張牌決定是否補牌
+- 閒家 0\~5 點補牌、 6\~7 點停牌;莊家依閒家第三張牌決定是否補牌
 - **賠率**:押閒 1:1;押莊 1:0.95(抽 5% 水);押和 8:1;開和時押莊閒退回本金
 
 ## 📊 觀察重點
@@ -136,4 +134,4 @@ focus_on(my_strategy, 500, show_it=True, return_it=False)
 
 ## 📄 授權
 
-請依需求自行加入 LICENSE(例如 MIT)。
+本專案採用 [MIT License](LICENSE) 授權。
